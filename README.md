@@ -1,5 +1,5 @@
-# jennytube.py
- jennytube is a program to download music or an entire playlist from youtube.com without headaches or sites that require users to register or impose limits on limited use quantities.
+# jennitube.py
+ jennitube is a program to download music or an entire playlist from youtube.com without headaches or sites that require users to register or impose limits on limited use quantities.
 # Features
 - Only get the extension audio/mp4 from the videos from youtube.
 - Download a single music or audio just using the link from youtube.
