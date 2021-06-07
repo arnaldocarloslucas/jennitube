@@ -46,9 +46,9 @@ def playlist(path):
                 print(f"{yt2} successfully downloaded!")
                 should_not_pass = True
             except:
-                print(f'Error 404, Trying again... COUNTER={counter}/20')  
+                print(f'Error 404, Trying again... COUNTER={counter}/10')  
                 counter+=1  
-            if counter == 20:
+            if counter == 10:
                 print("Download fail :(")
                 should_not_pass = True
 
