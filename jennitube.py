@@ -13,16 +13,16 @@ def music(path):
         try:
             yt = YouTube(link).streams.filter(only_audio=True,file_extension='mp4')
             yt2 = YouTube(link).title
+            for i in yt:
+                i.download(path)
+                print(f"{yt2} successfully downloaded!")
             should_not_pass = True
         except:
-            print(f'Error 404, Trying again... COUNTER={counter}/20')
+            print(f'Error 404, Trying again... COUNTER={counter}/10')
             counter+=1
-        if counter == 20:
+        if counter == 10:
                 print("Download fail :(")
-                should_not_pass = True
-    for i in yt:
-        i.download(path)
-        print(f"{yt2} successfully downloaded!")                       
+                should_not_pass = True                       
 
 def playlist(path):        
     link = str(input("Enter the link of the playlist you want: "))
@@ -67,5 +67,3 @@ if __name__=='__main__':
                 playlist(path)
         if jenni == '3':
             exit(0)
-        else:
-            os.system('cls')
