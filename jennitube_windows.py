@@ -1,7 +1,5 @@
-from logging import NullHandler
 from pytube import YouTube
 from pytube import Playlist
-import os
 from tkinter.filedialog import askdirectory
 
 def music(path):
