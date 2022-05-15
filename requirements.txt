@@ -1,2 +1,2 @@
-pytube==11.0.0
-pyinstaller==4.3
+pytube==12.1.0
+pyinstaller==5.0.1

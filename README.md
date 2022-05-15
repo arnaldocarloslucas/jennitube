@@ -3,6 +3,9 @@
 # Install
 To install just run the code:
     pip install -r requirements.txt
+If need to create a new .exe file just make the adjustments and run with all lib installed the command:
+    pyinstaller --onefile jennitube_windows.py
+And get the .exe file inside the dist folder.
 # Features
 - Only get the extension audio/mp4 from the videos from youtube.
 - Download a single music or audio just using the link from youtube.
